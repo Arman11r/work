@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Solver</title>
+    <link rel="stylesheet" href="task.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="your-logo.png" alt="Brightways Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" class="headr">Home</a></li>
+            <li><a href="#" class="headr">Note Enhancer</a></li>
+            <li><a href="#" class="headr">Quiz</a></li>
+            <li><a href="#" class="headr">Task</a></li>
+            <li><a href="#" class="headr">Grammar</a></li>
+        </ul>
+        <a href="#" class="register-btn">Register</a>
+    </nav>
+
+    <section class="task-section">
+        <h1 class="taskgen">Yours Own Task Solver</h1>
+        <form class="task-form">
+            <label class="pdf">Upload Your Notes(Optional):</label>
+            <input type="file">
+
+            <label class="ques">Upload An Image(Optional):</label>
+            <input type="file" >
+
+            <label class="lang">Enter Your Prompt:</label>
+            <input type="text" placeholder="Enter Your Prompt Here">
+
+            <label class="watermark">Select a Watermark for PDF:</label>
+            
+            <select name="colr" id="colr">
+                  <option value="color">Color</option>
+                  <option value="bnw">Black and White</option>
+                  <option value="none">None</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
